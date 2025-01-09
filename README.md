@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error: accessing an element in a `std::vector` beyond its bounds.  The `bug.cpp` file contains the erroneous code, which attempts to assign a value to an index that doesn't exist. The `bugSolution.cpp` demonstrates how to fix this by using `at()` for bounds checking or ensuring the index is valid before access.
